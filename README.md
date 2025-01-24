@@ -51,3 +51,31 @@ npm run deploy-to-test
 ```
 npm run verify-on-test <contract address>
 ```
+
+### OpenSea Metadata standards for NFT
+[link](https://docs.opensea.io/docs/metadata-standards)
+
+### Sample NFT Metadata
+```
+{
+  "name": "Mobile Suit Gundam NFT Contract",
+  "description": "Sample Implementation for ERC-721 Smart Contract",
+  "image": "https://ipfs.io/ipfs/bafybeife7a3pipish5rmo5olderhygntapiqinbpyeotnaz334ygavgx7i/mg-gn-001-gundam-exia-00.jpg",
+  "attributes": [
+    {
+      "trait_type": "model_name",
+      "value": "Exia"
+    },
+    {
+      "trait_type": "clan",
+      "value": "Celestial Being"
+    },
+    {
+        "trait_type": "power_level",
+        "value": "100"
+    }
+  ]
+}
+
+```
+
